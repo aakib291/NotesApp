@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 92.5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p,
+a,
+li,
+input {
+  font-size: 1rem;
+  letter-spacing: 0.12rem;
+  line-height: 1.5;
+}
+
+.main-section {
+  width: 100%;
+  height: auto;
+}
+
+.section-form {
+  padding: 1.6rem;
+  background-color: rgba(10, 11, 62, 0.903);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  margin: 3.2rem;
+}
+
+form {
+  display: flex;
+  gap: 1.2rem;
+}
+
+& input {
+  width: 24rem;
+  color: rgba(10, 11, 62, 0.903);
+  border: 0.1rem solid grey;
+  outline: none;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+  padding: 0.8rem 1.2rem;
+}
+
+label{
+  padding: 1rem;
+  color: rgb(151, 163, 163);
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  margin: 1.2rem;
+}
+
+body{
+  background-color: rgba(0, 2, 107, 0.623);
+
+}
